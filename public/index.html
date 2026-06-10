@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "b0fa879e-dadb-4f1d-a824-3766908b2154";window.ZAPPY_API_BASE = "https://qaapi.zappy5.com";</script><a class="skip-link" href="#main">Skip to main content</a>
+<script>window.ZAPPY_WEBSITE_ID = "b0fa879e-dadb-4f1d-a824-3766908b2154";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://qaapi.zappy5.com" : "https://qaapi.zappy5.com");</script><a class="skip-link" href="#main">Skip to main content</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -855,20 +855,20 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="home-hero-section" style="margin-top: -80px !important; padding-top: 80px !important; min-height: 692.402px !important;" data-zappy-content-align="center-mid-left">
   <!-- Background Image -->
   <div class="home-hero-section__bg">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="home-hero-image-1" data-context="A just-opened bakery gift box filled with warm chocolate chip and oatmeal cookies, crinkly tissue paper, scattered crumbs, and a red ribbon on a rustic parchment-toned wooden surface. Shot from above with warm, cinematic lighting, deep shadows, and visible paper folds. Brooklyn artisanal bakery vibe." width="1200" height="600" src="/assets/site-home-hero-image-1.webp" alt="Warm bakery gift box with fresh cookies, tissue paper, and ribbon on rustic parchment surface">
+    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="home-hero-image-1" data-context="A just-opened bakery gift box filled with warm chocolate chip and oatmeal cookies, crinkly tissue paper, scattered crumbs, and a red ribbon on a rustic parchment-toned wooden surface. Shot from above with warm, cinematic lighting, deep shadows, and visible paper folds. Brooklyn artisanal bakery vibe." width="1200" height="600" src="/assets/site-home-hero-image-1.webp" alt="Warm bakery gift box with fresh cookies, tissue paper, and ribbon on rustic parchment surface" data-hero-background="true" data-element-type="image" data-element-id="img-1781088445273-cln28kwls" style="object-position: 50% 50%;">
   </div>
 
   <!-- Scrim Overlay -->
   <div class="home-hero-section__scrim" aria-hidden="true"></div>
 
   <!-- Content Overlay -->
-  <div class="home-hero-section__content">
+  <div class="home-hero-section__content" data-zappy-align-target="true" >
     <!-- Brooklyn Postmark Stamp Motif -->
-    <div class="home-hero-section__stamp" aria-hidden="true">
-      <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <div class="home-hero-section__stamp" aria-hidden="true" data-zappy-abs-align="true">
+      <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-element-id="icon-1781088445272-t4ue3qz32" data-icon-type="svg">
         <circle cx="60" cy="60" r="54" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"></circle>
         <circle cx="60" cy="60" r="48" fill="none" stroke="currentColor" stroke-width="2.5"></circle>
         <circle cx="60" cy="60" r="42" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"></circle>
@@ -878,11 +878,11 @@
       </svg>
     </div>
 
-    <h1 class="home-hero-section__title">Handmade Cookies &amp; Curated Gift Boxes from Brooklyn</h1>
+    <h1 class="home-hero-section__title" >Handmade Cookies &amp; Curated Gift Boxes from Brooklyn</h1>
     <h3 class="home-hero-section__subtitle">Warm from the oven, wrapped with care. Every box brings the neighborhood bakery to your door.</h3>
     <div class="home-hero-section__actions">
-      <a href="/contact" class="home-hero-section__btn home-hero-section__btn--primary">Get in Touch</a>
-      <a href="/gift-boxes" class="home-hero-section__btn home-hero-section__btn--secondary">Explore Gift Boxes</a>
+      <a href="/contact" class="home-hero-section__btn home-hero-section__btn--primary" data-element-type="button" data-element-id="btn-1781088445269-8ovuqoi0x" data-native-element="true">Get in Touch</a>
+      <a href="/gift-boxes" class="home-hero-section__btn home-hero-section__btn--secondary" data-element-type="button" data-element-id="btn-1781088445269-k3qw1eqee" data-native-element="true">Explore Gift Boxes</a>
     </div>
   </div>
 
