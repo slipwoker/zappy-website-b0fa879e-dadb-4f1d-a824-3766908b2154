@@ -1,0 +1,101 @@
+# Warm & Crumbly — Generative Engine Optimization Map
+
+> Warm & Crumbly is a small local bakery based in Brooklyn, NY, specializing in cookies and curated cookie boxes. The name evokes a cozy, homemade warmth with an artisanal feel, suggesting a neighborhood gem with a personal touch and a passion for baked goods.
+
+---
+
+## Pages
+
+### Home
+https://warm-crumbly-b0fa879e.zappy5.app
+Sink your teeth into Brooklyn&#39;s most irresistible homemade cookies and curated cookie boxes from Warm &amp; Crumbly. Freshly baked, artisanal treats delivered with a personal touch. Order your box today!
+
+### Gift Boxes
+https://warm-crumbly-b0fa879e.zappy5.app/gift-boxes
+Surprise someone special with our signature curated cookie boxes, packed with warm, crumbly perfection. Handcrafted in Brooklyn for any occasion. Design your delicious gift now!
+
+### About
+https://warm-crumbly-b0fa879e.zappy5.app/about
+Discover the story of Warm &amp; Crumbly, a neighborhood gem in Brooklyn, NY, where every batch of homemade cookies is baked with passion and a personal touch. Come taste the love!
+
+### Contact
+https://warm-crumbly-b0fa879e.zappy5.app/contact
+Ready to elevate your dessert game? Reach out to Warm &amp; Crumbly in Brooklyn for custom cookie boxes or just to say hello. We can&#39;t wait to bake for you—get in touch!
+
+### Products
+https://warm-crumbly-b0fa879e.zappy5.app/products
+Our Products - Warm & Crumbly
+
+### Cart
+https://warm-crumbly-b0fa879e.zappy5.app/cart
+Your Cart
+
+### Checkout
+https://warm-crumbly-b0fa879e.zappy5.app/checkout
+Checkout
+
+### Login
+https://warm-crumbly-b0fa879e.zappy5.app/login
+Customer Login
+
+### Account
+https://warm-crumbly-b0fa879e.zappy5.app/account
+My Account
+
+### Order Success
+https://warm-crumbly-b0fa879e.zappy5.app/order-success
+Thank you for your order
+
+### Product Detail
+https://warm-crumbly-b0fa879e.zappy5.app/product/:slug
+Product Details - Warm & Crumbly
+
+### Category
+https://warm-crumbly-b0fa879e.zappy5.app/category/:slug
+Products - Warm & Crumbly
+
+## Legal & Policy
+
+### Privacy Policy
+https://warm-crumbly-b0fa879e.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://warm-crumbly-b0fa879e.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://warm-crumbly-b0fa879e.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Warm & Crumbly
+Warm & Crumbly is a small local bakery based in Brooklyn, NY, specializing in cookies and curated cookie boxes. The name evokes a cozy, homemade warmth with an artisanal feel, suggesting a neighborhood gem with a personal touch and a passion for baked goods.
+
+## Target Audience
+- Gift-Giving Professionals
+- Busy Parents
+- Holiday Shoppers
+- yang moms
+
+## Industry
+Food & Beverage
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://warm-crumbly-b0fa879e.zappy5.app/sitemap.xml
+- Robots: https://warm-crumbly-b0fa879e.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://warm-crumbly-b0fa879e.zappy5.app/llms-full.txt
+- Products (JSON): https://warm-crumbly-b0fa879e.zappy5.app/products.json
+- Products (Google Merchant RSS): https://warm-crumbly-b0fa879e.zappy5.app/product-feed.xml
