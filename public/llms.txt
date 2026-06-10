@@ -7,65 +7,65 @@
 ## Pages
 
 ### Home
-https://warm-crumbly-b0fa879e.zappy5.app
+https://example.com
 Sink your teeth into Brooklyn&#39;s most irresistible homemade cookies and curated cookie boxes from Warm &amp; Crumbly. Freshly baked, artisanal treats delivered with a personal touch. Order your box today!
 
 ### Gift Boxes
-https://warm-crumbly-b0fa879e.zappy5.app/gift-boxes
+https://example.com/gift-boxes
 Surprise someone special with our signature curated cookie boxes, packed with warm, crumbly perfection. Handcrafted in Brooklyn for any occasion. Design your delicious gift now!
 
 ### About
-https://warm-crumbly-b0fa879e.zappy5.app/about
+https://example.com/about
 Discover the story of Warm &amp; Crumbly, a neighborhood gem in Brooklyn, NY, where every batch of homemade cookies is baked with passion and a personal touch. Come taste the love!
 
 ### Contact
-https://warm-crumbly-b0fa879e.zappy5.app/contact
+https://example.com/contact
 Ready to elevate your dessert game? Reach out to Warm &amp; Crumbly in Brooklyn for custom cookie boxes or just to say hello. We can&#39;t wait to bake for you—get in touch!
 
 ### Products
-https://warm-crumbly-b0fa879e.zappy5.app/products
+https://example.com/products
 Our Products - Warm & Crumbly
 
 ### Cart
-https://warm-crumbly-b0fa879e.zappy5.app/cart
+https://example.com/cart
 Your Cart
 
 ### Checkout
-https://warm-crumbly-b0fa879e.zappy5.app/checkout
+https://example.com/checkout
 Checkout
 
 ### Login
-https://warm-crumbly-b0fa879e.zappy5.app/login
+https://example.com/login
 Customer Login
 
 ### Account
-https://warm-crumbly-b0fa879e.zappy5.app/account
+https://example.com/account
 My Account
 
 ### Order Success
-https://warm-crumbly-b0fa879e.zappy5.app/order-success
+https://example.com/order-success
 Thank you for your order
 
 ### Product Detail
-https://warm-crumbly-b0fa879e.zappy5.app/product/:slug
+https://example.com/product/:slug
 Product Details - Warm & Crumbly
 
 ### Category
-https://warm-crumbly-b0fa879e.zappy5.app/category/:slug
+https://example.com/category/:slug
 Products - Warm & Crumbly
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://warm-crumbly-b0fa879e.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://warm-crumbly-b0fa879e.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://warm-crumbly-b0fa879e.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -94,8 +94,8 @@ Food & Beverage
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://warm-crumbly-b0fa879e.zappy5.app/sitemap.xml
-- Robots: https://warm-crumbly-b0fa879e.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://warm-crumbly-b0fa879e.zappy5.app/llms-full.txt
-- Products (JSON): https://warm-crumbly-b0fa879e.zappy5.app/products.json
-- Products (Google Merchant RSS): https://warm-crumbly-b0fa879e.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
