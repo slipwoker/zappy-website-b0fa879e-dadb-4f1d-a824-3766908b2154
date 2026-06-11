@@ -1,8 +1,29 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T10:46:20.913Z",
-  "base_url": "https://example.com",
+  "generated_at": "2026-06-11T11:00:52.348Z",
+  "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "df793088-a7ec-4d59-a225-3b7dcf8808e8",
+      "slug": "test-product-qcr2se",
+      "name": "test product",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 3,
+      "base_price": 3,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://warm-crumbly.zappy5.app/product/test-product-qcr2se",
+      "categories": [],
+      "updated_at": "2026-06-11T05:32:48.914Z"
+    }
+  ]
 }
