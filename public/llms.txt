@@ -72,12 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
-
-### test product
-https://warm-crumbly.zappy5.app/product/test-product-qcr2se
-- Price: 3.00 USD
-- Availability: In stock
+_No products are currently configured._
 
 ---
 
