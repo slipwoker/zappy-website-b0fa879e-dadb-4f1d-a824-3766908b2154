@@ -80,6 +80,9 @@ Skip to main content
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -576,6 +579,9 @@ Skip to main content
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -1012,6 +1018,9 @@ Skip to main content
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -1381,6 +1390,9 @@ Skip to main content
 
 
 - Products Products
+
+
+
 
 
 
@@ -1814,6 +1826,9 @@ Products - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -2060,6 +2075,9 @@ Cart - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -2278,6 +2296,9 @@ Checkout - Warm & Crumbly
 
 
 - Products Products
+
+
+
 
 
 
@@ -2690,6 +2711,9 @@ Login - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -2915,6 +2939,9 @@ My Account - Warm & Crumbly
 
 
 - Products Products
+
+
+
 
 
 
@@ -3303,6 +3330,9 @@ Order Received! - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -3549,6 +3579,9 @@ Return Policy - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -3580,7 +3613,7 @@ Products
 # Return Policy
 
 
-Last Updated: 6/10/2026
+Last Updated: 6/13/2026
 
 
 
@@ -3824,6 +3857,9 @@ Product Details - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -4048,6 +4084,9 @@ Products - Warm & Crumbly
 
 
 
+
+
+
 - Home
 - Gift Boxes
 - About
@@ -4256,7 +4295,25 @@ Privacy Policy
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Products Products
+
+
+
 
 
 
@@ -4270,6 +4327,16 @@ Privacy Policy
 
 
 
+
+
+
+
+
+
+
+
+
+Products
 
 
 
@@ -4523,7 +4590,25 @@ Accessibility Statement
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Products Products
+
+
+
 
 
 
@@ -4537,6 +4622,16 @@ Accessibility Statement
 
 
 
+
+
+
+
+
+
+
+
+
+Products
 
 
 
@@ -4796,7 +4891,25 @@ Terms & Conditions
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Products Products
+
+
+
 
 
 
@@ -4810,6 +4923,16 @@ Terms & Conditions
 
 
 
+
+
+
+
+
+
+
+
+
+Products
 
 
 
