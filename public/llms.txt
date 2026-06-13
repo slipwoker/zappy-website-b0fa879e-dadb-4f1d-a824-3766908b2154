@@ -72,13 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
-
-### test product
-https://warm-crumbly.zappy5.app/product/test-product-3j49p9
-- Price: 11.98 USD
-- Availability: In stock
-- Description: sdfsdf
+_No products are currently configured._
 
 ---
 
