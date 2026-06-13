@@ -72,16 +72,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
-
-### דגכ
-https://warm-crumbly.zappy5.app/product/dgk-a6ie82
-- Price: 11.98 USD
-- Availability: In stock
-- Category: Sample catagory
-- SKU: דגכדגכ
-- Brand: סבהסבה
-- Description: דגכ
+_No products are currently configured._
 
 ---
 
