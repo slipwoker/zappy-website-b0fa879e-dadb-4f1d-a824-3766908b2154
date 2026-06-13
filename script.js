@@ -1353,6 +1353,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -1615,6 +1617,18 @@ window.onload = function() {
     return fallback;
   }
 
+  function getPreviewDashboardEcomText(key, fallback) {
+    var dashboardLang = '';
+    try {
+      dashboardLang = new URLSearchParams(window.location.search).get('dashboardLang') || '';
+    } catch (e) {}
+    dashboardLang = String(dashboardLang || '').split('-')[0].toLowerCase();
+    if (dashboardLang && ECOM_RUNTIME_TEXT[dashboardLang] && ECOM_RUNTIME_TEXT[dashboardLang][key]) {
+      return ECOM_RUNTIME_TEXT[dashboardLang][key];
+    }
+    return getEcomText(key, fallback);
+  }
+
   function getLocalizedCartItemName(item) {
     if (!item) return '';
     var lang = String(getCurrentEcomLanguage() || '').split('-')[0].toLowerCase();
@@ -1656,10 +1670,10 @@ window.onload = function() {
     if (!zappyIsDashboardPreview()) {
       return '<div class="empty-cart">' + escapeCartHtml(message) + '</div>';
     }
-    var title = getEcomText('previewEmptyStoreTitle', 'Your store is ready for products');
-    var body = getEcomText('previewEmptyStoreBody', 'Add your first product in Store Manager to see it appear here.');
-    var button = getEcomText('previewEmptyStoreButton', 'Add products');
-    var badge = getEcomText('previewOnlyBadge', 'Preview only');
+    var title = getPreviewDashboardEcomText('previewEmptyStoreTitle', 'Your store is ready for products');
+    var body = getPreviewDashboardEcomText('previewEmptyStoreBody', 'Add your first product in Store Manager to see it appear here.');
+    var button = getPreviewDashboardEcomText('previewEmptyStoreButton', 'Add products');
+    var badge = getPreviewDashboardEcomText('previewOnlyBadge', 'Preview only');
     var wrapStyle = 'box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:min(92%,560px);margin:0 auto;padding:22px 24px;background:#fff;border:3px solid #ff0083;border-radius:18px;box-shadow:0 16px 38px rgba(255,0,131,.28);color:#111827;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;text-align:center;grid-column:1/-1;';
     var badgeStyle = 'display:inline-flex;align-items:center;border-radius:999px;background:#ffe6f3;color:#c00063;font-size:12px;font-weight:900;letter-spacing:.08em;line-height:1;padding:7px 12px;text-transform:uppercase;';
     var titleStyle = 'color:#111827;font-size:18px;font-weight:800;line-height:1.25;margin:0;';
@@ -8314,6 +8328,18 @@ function getEcomText(key, fallback) {
   return fallback;
 }
 
+function getPreviewDashboardEcomText(key, fallback) {
+  var dashboardLang = '';
+  try {
+    dashboardLang = new URLSearchParams(window.location.search).get('dashboardLang') || '';
+  } catch (e) {}
+  dashboardLang = String(dashboardLang || '').split('-')[0].toLowerCase();
+  if (dashboardLang && ECOM_RUNTIME_TEXT[dashboardLang] && ECOM_RUNTIME_TEXT[dashboardLang][key]) {
+    return ECOM_RUNTIME_TEXT[dashboardLang][key];
+  }
+  return getEcomText(key, fallback);
+}
+
 function zappyPreviewCtaEscHtml(value) {
   return String(value == null ? '' : value).replace(/[&<>"']/g, function(c) {
     return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
@@ -8349,10 +8375,10 @@ function zappyRenderPreviewEmptyStoreCta(message, wrapperClass) {
   if (!zappyIsDashboardPreview()) {
     return '<div class="' + cls + '">' + zappyPreviewCtaEscHtml(message) + '</div>';
   }
-  var title = getEcomText('previewEmptyStoreTitle', 'Your store is ready for products');
-  var body = getEcomText('previewEmptyStoreBody', 'Add your first product in Store Manager to see it appear here.');
-  var button = getEcomText('previewEmptyStoreButton', 'Add products');
-  var badge = getEcomText('previewOnlyBadge', 'Preview only');
+  var title = getPreviewDashboardEcomText('previewEmptyStoreTitle', 'Your store is ready for products');
+  var body = getPreviewDashboardEcomText('previewEmptyStoreBody', 'Add your first product in Store Manager to see it appear here.');
+  var button = getPreviewDashboardEcomText('previewEmptyStoreButton', 'Add products');
+  var badge = getPreviewDashboardEcomText('previewOnlyBadge', 'Preview only');
   var wrapStyle = 'box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:min(92%,560px);margin:0 auto;padding:22px 24px;background:#fff;border:3px solid #ff0083;border-radius:18px;box-shadow:0 16px 38px rgba(255,0,131,.28);color:#111827;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;text-align:center;grid-column:1/-1;';
   var badgeStyle = 'display:inline-flex;align-items:center;border-radius:999px;background:#ffe6f3;color:#c00063;font-size:12px;font-weight:900;letter-spacing:.08em;line-height:1;padding:7px 12px;text-transform:uppercase;';
   var titleStyle = 'color:#111827;font-size:18px;font-weight:800;line-height:1.25;margin:0;';
