@@ -4,6 +4,17 @@
     <title>Warm &amp; Crumbly</title>
     <link>https://warm-crumbly.zappy5.app</link>
     <description>Product feed for Warm &amp; Crumbly</description>
-    <lastBuildDate>Sat, 13 Jun 2026 04:31:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 04:33:33 GMT</lastBuildDate>
+    <item>
+      <g:id>12c83bcc-1cfc-4505-974d-502ea76cc942</g:id>
+      <g:title>test product</g:title>
+      <g:description>sdfsdf</g:description>
+      <g:link>https://warm-crumbly.zappy5.app/product/test-product-3j49p9</g:link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.98 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Warm &amp; Crumbly</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

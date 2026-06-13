@@ -1,8 +1,29 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-13T04:31:48.648Z",
+  "generated_at": "2026-06-13T04:33:33.856Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "12c83bcc-1cfc-4505-974d-502ea76cc942",
+      "slug": "test-product-3j49p9",
+      "name": "test product",
+      "name_translations": {},
+      "description": "",
+      "short_description": "sdfsdf",
+      "sku": null,
+      "brand": null,
+      "price": 11.98,
+      "base_price": 11.98,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://warm-crumbly.zappy5.app/product/test-product-3j49p9",
+      "categories": [],
+      "updated_at": "2026-06-13T04:32:53.835Z"
+    }
+  ]
 }
