@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:12:41.545Z",
+  "generated_at": "2026-06-14T08:13:25.763Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
   "count": 1,
   "products": [
     {
       "id": "da181adf-86f1-448b-9407-7290174e3236",
-      "slug": "chocolate-chips-cookies-dmvame",
+      "slug": "chocolate-chips-cookies-9g3vcs",
       "name": "chocolate chips cookies",
       "name_translations": {},
       "description": "",
@@ -23,9 +23,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-dmvame",
+      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-9g3vcs",
       "categories": [],
-      "updated_at": "2026-06-14T08:12:02.499Z"
+      "updated_at": "2026-06-14T08:12:45.301Z"
     }
   ]
 }
