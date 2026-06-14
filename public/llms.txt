@@ -75,10 +75,10 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### chocolate chips cookies
-https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-9g3vcs
+https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-qfij8p
 - Price: 15.00 USD
 - Availability: In stock
-- Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781424662601-6l86kh.webp
+- Image: https://warm-crumbly.zappy5.app/assets/product-ai-fit-1781425019400-i4kj3.webp
 
 ---
 

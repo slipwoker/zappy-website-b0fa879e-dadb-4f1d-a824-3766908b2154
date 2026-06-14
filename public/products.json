@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:16:54.189Z",
+  "generated_at": "2026-06-14T08:18:09.116Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
   "count": 1,
   "products": [
     {
       "id": "da181adf-86f1-448b-9407-7290174e3236",
-      "slug": "chocolate-chips-cookies-9g3vcs",
+      "slug": "chocolate-chips-cookies-qfij8p",
       "name": "chocolate chips cookies",
       "name_translations": {},
       "description": "",
@@ -19,13 +19,13 @@
       "sale_price": null,
       "currency": "USD",
       "images": [
-        "https://warm-crumbly.zappy5.app/assets/image-product-image-1781424662601-6l86kh.webp"
+        "https://warm-crumbly.zappy5.app/assets/product-ai-fit-1781425019400-i4kj3.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-9g3vcs",
+      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-qfij8p",
       "categories": [],
-      "updated_at": "2026-06-14T08:12:45.301Z"
+      "updated_at": "2026-06-14T08:17:27.256Z"
     }
   ]
 }
