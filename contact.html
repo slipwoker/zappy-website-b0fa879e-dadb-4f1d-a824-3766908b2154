@@ -161,26 +161,31 @@
       // Track button clicks (counted as actions)
       if (target.tagName === 'BUTTON' || target.closest('button')) {
         var button = target.tagName === 'BUTTON' ? target : target.closest('button');
-        trackEvent('click', {
+        var clickMeta = {
           element: 'button',
           text: button.textContent.trim().substring(0, 100),
           id: button.id || null,
           class: button.className || null
-        });
+        };
+        
+        trackEvent('click', clickMeta);
       }
       
       // Track link clicks (navigation - not counted as actions)
       else if (target.tagName === 'A' || target.closest('a')) {
         var link = target.tagName === 'A' ? target : target.closest('a');
-        trackEvent('navigation', {
+        var navMeta = {
           element: 'link',
           text: link.textContent.trim().substring(0, 100),
           href: link.href,
           external: link.hostname !== window.location.hostname
-        });
+        };
+        
+        trackEvent('navigation', navMeta);
       }
     }, true);
   }
+  
   
   // Track form submissions
   if (config.trackFormSubmissions) {
@@ -223,7 +228,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Let&#39;s Talk Cookies &amp; Custom Orders — Warm &amp; Crumbly">
     <meta name="twitter:description" content="Ready to elevate your dessert game? Reach out to Warm &amp; Crumbly in Brooklyn for custom cookie boxes or just to say hello. We can&#39;t wait to bake for you—get in touch!">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://warm-crumbly.zappy5.app#organization","name":"Warm & Crumbly","url":"https://warm-crumbly.zappy5.app","description":"Warm & Crumbly is a small local bakery based in Brooklyn, NY, specializing in cookies and curated cookie boxes. The name evokes a cozy, homemade warmth with an artisanal feel, suggesting a neighborhood gem with a personal touch and a passion for baked goods."},{"@type":"WebSite","@id":"https://warm-crumbly.zappy5.app#website","url":"https://warm-crumbly.zappy5.app","name":"Warm & Crumbly","publisher":{"@id":"https://warm-crumbly.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://warm-crumbly.zappy5.app"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://warm-crumbly.zappy5.app/contact"}]},{"@type":"ContactPage","@id":"https://warm-crumbly.zappy5.app/contact#contactpage","url":"https://warm-crumbly.zappy5.app/contact","name":"Let&#39;s Talk Cookies &amp; Custom Orders — Warm &amp; Crumbly","mainEntity":{"@id":"https://warm-crumbly.zappy5.app#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://warm-crumbly.zappy5.app/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"name","propertyID":"text","valueRequired":true,"description":"Your full name"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"[business_email]"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":false,"description":"[business_phone]"},{"@type":"PropertyValue","name":"message","propertyID":"textarea","valueRequired":true,"description":"Tell us about your cookie cravings..."},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://warm-crumbly.zappy5.app#organization","name":"Warm & Crumbly","url":"https://warm-crumbly.zappy5.app","description":"Warm & Crumbly is a small local bakery based in Brooklyn, NY, specializing in cookies and curated cookie boxes. The name evokes a cozy, homemade warmth with an artisanal feel, suggesting a neighborhood gem with a personal touch and a passion for baked goods.","address":{"@type":"PostalAddress","streetAddress":"Hashlosha 4, Brooklyn, NY, 42836, US"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"maor@zappy5.com","telephone":"+972543951940"}]},{"@type":"WebSite","@id":"https://warm-crumbly.zappy5.app#website","url":"https://warm-crumbly.zappy5.app","name":"Warm & Crumbly","publisher":{"@id":"https://warm-crumbly.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://warm-crumbly.zappy5.app"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://warm-crumbly.zappy5.app/contact"}]},{"@type":"ContactPage","@id":"https://warm-crumbly.zappy5.app/contact#contactpage","url":"https://warm-crumbly.zappy5.app/contact","name":"Let&#39;s Talk Cookies &amp; Custom Orders — Warm &amp; Crumbly","mainEntity":{"@id":"https://warm-crumbly.zappy5.app#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://warm-crumbly.zappy5.app/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"name","propertyID":"text","valueRequired":true,"description":"Your full name"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"maor@zappy5.com"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":false,"description":"+972543951940"},{"@type":"PropertyValue","name":"message","propertyID":"textarea","valueRequired":true,"description":"Tell us about your cookie cravings..."},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   
@@ -369,7 +374,7 @@
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972543951940" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -406,13 +411,13 @@
   
 
     
-  <li><a href="/">Home</a></li><li><a href="/gift-boxes">Gift Boxes</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="Login"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="Cart"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+  <li><a href="/">Home</a></li><li><a href="/gift-boxes">Gift Boxes</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="Login"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="Cart"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="Search products..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="Search">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div>
     
     
   </div>
@@ -851,7 +856,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972543951940';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -882,19 +887,19 @@
             <span class="contact-contact-intro-link-icon" aria-hidden="true">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             </span>
-            <span>[business_phone]</span>
+            <span>+972543951940</span>
           </a>
-          <a href="mailto:[business_email]" class="contact-contact-intro-link-item" data-zappy-contact-field="email">
+          <a href="mailto:maor@zappy5.com" class="contact-contact-intro-link-item" data-zappy-contact-field="email">
             <span class="contact-contact-intro-link-icon" aria-hidden="true">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
             </span>
-            <span>[business_email]</span>
+            <span>maor@zappy5.com</span>
           </a>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" class="contact-contact-intro-link-item" data-zappy-contact-field="address">
+          <a href="https://maps.google.com/?q=Hashlosha 4, Brooklyn, NY, 42836, US" target="_blank" class="contact-contact-intro-link-item" data-zappy-contact-field="address">
             <span class="contact-contact-intro-link-icon" aria-hidden="true">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             </span>
-            <span>[business_address]</span>
+            <span>Hashlosha 4, Brooklyn, NY, 42836, US</span>
           </a>
         </div>
       </div>
@@ -944,9 +949,9 @@
         <p class="contact-contact-details-card-text">Nestled in the heart of Brooklyn, NY, Warm &amp; Crumbly bakes every batch fresh from our neighborhood kitchen. While we're primarily an online bakery, the spirit of our local community is baked into every cookie box we ship.</p>
         <address class="contact-contact-details-address">
           <span>📍</span>
-          <span>[business_address]</span>
+          <span>Hashlosha 4, Brooklyn, NY, 42836, US</span>
         </address>
-        <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="contact-contact-details-map-link">View on Map →</a>
+        <a href="https://maps.google.com/?q=Hashlosha 4, Brooklyn, NY, 42836, US" target="_blank" rel="noopener noreferrer" class="contact-contact-details-map-link">View on Map →</a>
       </article>
 
       <!-- Card 2: Contact Channels -->
@@ -962,11 +967,11 @@
         <div class="contact-contact-details-channels">
           <div class="contact-contact-details-channel-item">
             <span class="contact-contact-details-channel-icon" aria-hidden="true">✉️</span>
-            <a href="mailto:[business_email]" class="contact-contact-details-channel-link">[business_email]</a>
+            <a href="mailto:maor@zappy5.com" class="contact-contact-details-channel-link">maor@zappy5.com</a>
           </div>
           <div class="contact-contact-details-channel-item">
             <span class="contact-contact-details-channel-icon" aria-hidden="true">📞</span>
-            <a href="tel:[business_phone]" class="contact-contact-details-channel-link">[business_phone]</a>
+            <a href="tel:+972543951940" class="contact-contact-details-channel-link">+972543951940</a>
           </div>
         </div>
       </article>
@@ -1015,12 +1020,12 @@
         </div>
         <div class="contact-form__field">
           <label for="contact-email">Email</label>
-          <input type="email" id="contact-email" name="email" placeholder="[business_email]" required="">
+          <input type="email" id="contact-email" name="email" placeholder="maor@zappy5.com" required="">
         </div>
       </div>
       <div class="contact-form__field">
         <label for="contact-phone">Phone</label>
-        <input type="tel" id="contact-phone" name="phone" placeholder="[business_phone]">
+        <input type="tel" id="contact-phone" name="phone" placeholder="+972543951940">
       </div>
       <div class="contact-form__field">
         <label for="contact-message">Message</label>
@@ -1059,7 +1064,7 @@
             <text x="60" y="56" text-anchor="middle" font-family="serif" font-size="11" font-weight="700" fill="currentColor" opacity="0.85">BROOKLYN</text>
             <text x="60" y="70" text-anchor="middle" font-family="serif" font-size="9" fill="currentColor" opacity="0.7">EST. 2024</text>
           </svg>
-        </div>
+         Hashlosha 4, Brooklyn, NY, 42836, US</div>
       </div>
     </div>
 
@@ -1077,7 +1082,7 @@
           <span class="contact-map-info-section__detail-icon" aria-hidden="true">
             <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           </span>
-          <span class="contact-map-info-section__detail-text">[business_address]</span>
+          <span class="contact-map-info-section__detail-text">Hashlosha 4, Brooklyn, NY, 42836, US</span>
         </div>
         <div class="contact-map-info-section__detail-item">
           <span class="contact-map-info-section__detail-icon" aria-hidden="true">
@@ -1128,23 +1133,20 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:maor@zappy5.com">maor@zappy5.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972543951940">+972543951940</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">Hashlosha 4, Brooklyn, NY, 42836, US</span></a></li>
         </ul>
       </div>
       <div class="footer-col footer-hours-col">
         <h4>Opening Hours</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">Mon–Fri</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">Sat</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">Sun</span> <span class="hours-time">Closed</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">Mon–Fri</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">Sat–Sun</span> <span class="hours-time">Closed</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>Follow Us</h4>
@@ -1171,7 +1173,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972543951940" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
