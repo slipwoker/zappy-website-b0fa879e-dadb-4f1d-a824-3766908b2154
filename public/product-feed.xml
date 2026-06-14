@@ -4,6 +4,45 @@
     <title>Warm &amp; Crumbly</title>
     <link>https://warm-crumbly.zappy5.app</link>
     <description>Product feed for Warm &amp; Crumbly</description>
-    <lastBuildDate>Sun, 14 Jun 2026 08:07:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 08:12:41 GMT</lastBuildDate>
+    <item>
+      <g:id>da181adf-86f1-448b-9407-7290174e3236__452706f4-0ebf-4bdf-9582-c4f22139a81b</g:id>
+      <g:title>chocolate chips cookies - S</g:title>
+      <g:description>chocolate chips cookies</g:description>
+      <g:link>https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-dmvame</g:link>
+      <g:item_group_id>da181adf-86f1-448b-9407-7290174e3236</g:item_group_id>
+      <g:image_link>https://warm-crumbly.zappy5.app/assets/image-product-image-1781424662601-6l86kh.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>15.00 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Warm &amp; Crumbly</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>da181adf-86f1-448b-9407-7290174e3236__3a1f966f-adf1-494b-93e4-76d1be3de528</g:id>
+      <g:title>chocolate chips cookies - M</g:title>
+      <g:description>chocolate chips cookies</g:description>
+      <g:link>https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-dmvame</g:link>
+      <g:item_group_id>da181adf-86f1-448b-9407-7290174e3236</g:item_group_id>
+      <g:image_link>https://warm-crumbly.zappy5.app/assets/image-product-image-1781424662601-6l86kh.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>17.00 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Warm &amp; Crumbly</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>da181adf-86f1-448b-9407-7290174e3236__3fe443ad-7690-45ce-8581-b629a162c238</g:id>
+      <g:title>chocolate chips cookies - L</g:title>
+      <g:description>chocolate chips cookies</g:description>
+      <g:link>https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-dmvame</g:link>
+      <g:item_group_id>da181adf-86f1-448b-9407-7290174e3236</g:item_group_id>
+      <g:image_link>https://warm-crumbly.zappy5.app/assets/image-product-image-1781424662601-6l86kh.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>20.00 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Warm &amp; Crumbly</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

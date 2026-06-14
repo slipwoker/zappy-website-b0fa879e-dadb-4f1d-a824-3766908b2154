@@ -72,7 +72,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 1**
+
+### chocolate chips cookies
+https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-dmvame
+- Price: 15.00 USD
+- Availability: In stock
+- Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781424662601-6l86kh.webp
 
 ---
 
