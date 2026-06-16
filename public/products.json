@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T09:42:02.140Z",
+  "generated_at": "2026-06-16T09:42:24.037Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
   "count": 5,
@@ -29,7 +29,7 @@
     },
     {
       "id": "120c9228-1978-4dc3-90e6-cd03f10a23eb",
-      "slug": "wild-berry-oatmeal-muffins-3hky9m",
+      "slug": "wild-berry-oatmeal-muffins-a0if37",
       "name": "Wild Berry & Oatmeal Muffins",
       "name_translations": {},
       "description": "",
@@ -45,9 +45,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-3hky9m",
+      "url": "https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-a0if37",
       "categories": [],
-      "updated_at": "2026-06-16T09:41:52.870Z"
+      "updated_at": "2026-06-16T09:42:22.416Z"
     },
     {
       "id": "c4b678cf-a189-4078-89f6-845c181e1442",
