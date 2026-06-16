@@ -72,7 +72,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 3**
+**Total active products: 4**
+
+### Wild Berry & Oatmeal Muffins
+https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-ss3qmf
+- Price: 35.00 USD
+- Availability: In stock
+- Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781602746830-vz89el.webp
 
 ### Custom Birthday Drip Cake
 https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-kza63h

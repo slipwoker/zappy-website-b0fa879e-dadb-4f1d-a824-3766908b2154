@@ -4,7 +4,19 @@
     <title>Warm &amp; Crumbly</title>
     <link>https://warm-crumbly.zappy5.app</link>
     <description>Product feed for Warm &amp; Crumbly</description>
-    <lastBuildDate>Tue, 16 Jun 2026 09:38:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 09:40:12 GMT</lastBuildDate>
+    <item>
+      <g:id>120c9228-1978-4dc3-90e6-cd03f10a23eb</g:id>
+      <g:title>Wild Berry &amp; Oatmeal Muffins</g:title>
+      <g:description>Wild Berry &amp; Oatmeal Muffins</g:description>
+      <g:link>https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-ss3qmf</g:link>
+      <g:image_link>https://warm-crumbly.zappy5.app/assets/image-product-image-1781602746830-vz89el.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>35.00 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Warm &amp; Crumbly</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
     <item>
       <g:id>c4b678cf-a189-4078-89f6-845c181e1442</g:id>
       <g:title>Custom Birthday Drip Cake</g:title>

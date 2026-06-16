@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T09:38:46.281Z",
+  "generated_at": "2026-06-16T09:40:12.048Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
-  "count": 3,
+  "count": 4,
   "products": [
+    {
+      "id": "120c9228-1978-4dc3-90e6-cd03f10a23eb",
+      "slug": "wild-berry-oatmeal-muffins-ss3qmf",
+      "name": "Wild Berry & Oatmeal Muffins",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 35,
+      "base_price": 35,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://warm-crumbly.zappy5.app/assets/image-product-image-1781602746830-vz89el.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-ss3qmf",
+      "categories": [],
+      "updated_at": "2026-06-16T09:39:40.134Z"
+    },
     {
       "id": "c4b678cf-a189-4078-89f6-845c181e1442",
       "slug": "custom-birthday-drip-cake-kza63h",
