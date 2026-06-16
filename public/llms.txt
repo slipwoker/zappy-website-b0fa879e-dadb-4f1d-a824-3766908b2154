@@ -72,28 +72,34 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 4**
+**Total active products: 5**
+
+### The Surprise Cookie Box
+https://warm-crumbly.zappy5.app/product/the-surprise-cookie-box-k7ocex
+- Price: 15.00 USD
+- Availability: In stock
+- Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781602869848-ukbg2j.webp
 
 ### Wild Berry & Oatmeal Muffins
-https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-ss3qmf
+https://warm-crumbly.zappy5.app/product/wild-berry-oatmeal-muffins-3hky9m
 - Price: 35.00 USD
 - Availability: In stock
 - Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781602746830-vz89el.webp
 
 ### Custom Birthday Drip Cake
-https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-kza63h
+https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-vi05mz
 - Price: 100.00 USD
 - Availability: In stock
 - Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781602653603-ce5nzi.webp
 
 ### Chocolate Fudge Brownies
-https://warm-crumbly.zappy5.app/product/chocolate-fudge-brownies-2x8c1q
+https://warm-crumbly.zappy5.app/product/chocolate-fudge-brownies-o9cywj
 - Price: 20.00 USD
 - Availability: In stock
 - Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781602589120-7s0yfc.webp
 
 ### chocolate chips cookies
-https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-xnd1m3
+https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-bf2cwr
 - Price: 15.00 USD
 - Availability: In stock
 - Image: https://warm-crumbly.zappy5.app/assets/product-ai-fit-1781425019400-i4kj3.webp
