@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T09:42:24.037Z",
+  "generated_at": "2026-06-16T09:43:07.497Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
   "count": 5,
@@ -51,7 +51,7 @@
     },
     {
       "id": "c4b678cf-a189-4078-89f6-845c181e1442",
-      "slug": "custom-birthday-drip-cake-vi05mz",
+      "slug": "custom-birthday-drip-cake-68rko7",
       "name": "Custom Birthday Drip Cake",
       "name_translations": {},
       "description": "",
@@ -67,9 +67,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-vi05mz",
+      "url": "https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-68rko7",
       "categories": [],
-      "updated_at": "2026-06-16T09:41:31.093Z"
+      "updated_at": "2026-06-16T09:42:30.708Z"
     },
     {
       "id": "7f5ec278-c5e6-474f-9f51-4c3a1618a810",
@@ -95,7 +95,7 @@
     },
     {
       "id": "da181adf-86f1-448b-9407-7290174e3236",
-      "slug": "chocolate-chips-cookies-bf2cwr",
+      "slug": "chocolate-chips-cookies-0tvsy7",
       "name": "chocolate chips cookies",
       "name_translations": {},
       "description": "",
@@ -111,9 +111,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-bf2cwr",
+      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-0tvsy7",
       "categories": [],
-      "updated_at": "2026-06-16T09:41:37.428Z"
+      "updated_at": "2026-06-16T09:43:06.651Z"
     }
   ]
 }

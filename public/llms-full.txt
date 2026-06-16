@@ -5377,7 +5377,7 @@ Availability: In stock
 ---
 
 ### Custom Birthday Drip Cake
-URL: https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-vi05mz
+URL: https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-68rko7
 Price: 100.00 USD
 Availability: In stock
 
@@ -5391,7 +5391,7 @@ Availability: In stock
 ---
 
 ### chocolate chips cookies
-URL: https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-bf2cwr
+URL: https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-0tvsy7
 Price: 15.00 USD
 Availability: In stock
 
