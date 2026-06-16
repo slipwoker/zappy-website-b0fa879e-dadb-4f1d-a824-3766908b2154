@@ -72,10 +72,16 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
+**Total active products: 2**
+
+### Chocolate Fudge Brownies
+https://warm-crumbly.zappy5.app/product/chocolate-fudge-brownies-2x8c1q
+- Price: 20.00 USD
+- Availability: In stock
+- Image: https://warm-crumbly.zappy5.app/assets/image-product-image-1781602589120-7s0yfc.webp
 
 ### chocolate chips cookies
-https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-qfij8p
+https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-xnd1m3
 - Price: 15.00 USD
 - Availability: In stock
 - Image: https://warm-crumbly.zappy5.app/assets/product-ai-fit-1781425019400-i4kj3.webp

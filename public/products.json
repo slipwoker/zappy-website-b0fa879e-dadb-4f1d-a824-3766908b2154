@@ -1,13 +1,35 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T08:21:03.663Z",
+  "generated_at": "2026-06-16T09:37:21.117Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
-  "count": 1,
+  "count": 2,
   "products": [
     {
+      "id": "7f5ec278-c5e6-474f-9f51-4c3a1618a810",
+      "slug": "chocolate-fudge-brownies-2x8c1q",
+      "name": "Chocolate Fudge Brownies",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 20,
+      "base_price": 20,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://warm-crumbly.zappy5.app/assets/image-product-image-1781602589120-7s0yfc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://warm-crumbly.zappy5.app/product/chocolate-fudge-brownies-2x8c1q",
+      "categories": [],
+      "updated_at": "2026-06-16T09:36:49.999Z"
+    },
+    {
       "id": "da181adf-86f1-448b-9407-7290174e3236",
-      "slug": "chocolate-chips-cookies-qfij8p",
+      "slug": "chocolate-chips-cookies-xnd1m3",
       "name": "chocolate chips cookies",
       "name_translations": {},
       "description": "",
@@ -23,9 +45,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-qfij8p",
+      "url": "https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-xnd1m3",
       "categories": [],
-      "updated_at": "2026-06-14T08:17:27.256Z"
+      "updated_at": "2026-06-16T09:37:03.316Z"
     }
   ]
 }

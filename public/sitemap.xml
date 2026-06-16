@@ -91,8 +91,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-qfij8p</loc>
-    <lastmod>2026-06-14</lastmod>
+    <loc>https://warm-crumbly.zappy5.app/product/chocolate-fudge-brownies-2x8c1q</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://warm-crumbly.zappy5.app/product/chocolate-chips-cookies-xnd1m3</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
