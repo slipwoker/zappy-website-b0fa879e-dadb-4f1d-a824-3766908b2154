@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T09:37:34.641Z",
+  "generated_at": "2026-06-16T09:38:46.281Z",
   "base_url": "https://warm-crumbly.zappy5.app",
   "currency": "USD",
-  "count": 2,
+  "count": 3,
   "products": [
+    {
+      "id": "c4b678cf-a189-4078-89f6-845c181e1442",
+      "slug": "custom-birthday-drip-cake-kza63h",
+      "name": "Custom Birthday Drip Cake",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 100,
+      "base_price": 100,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://warm-crumbly.zappy5.app/assets/image-product-image-1781602653603-ce5nzi.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-kza63h",
+      "categories": [],
+      "updated_at": "2026-06-16T09:38:15.200Z"
+    },
     {
       "id": "7f5ec278-c5e6-474f-9f51-4c3a1618a810",
       "slug": "chocolate-fudge-brownies-2x8c1q",

@@ -4,7 +4,19 @@
     <title>Warm &amp; Crumbly</title>
     <link>https://warm-crumbly.zappy5.app</link>
     <description>Product feed for Warm &amp; Crumbly</description>
-    <lastBuildDate>Tue, 16 Jun 2026 09:37:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 09:38:46 GMT</lastBuildDate>
+    <item>
+      <g:id>c4b678cf-a189-4078-89f6-845c181e1442</g:id>
+      <g:title>Custom Birthday Drip Cake</g:title>
+      <g:description>Custom Birthday Drip Cake</g:description>
+      <g:link>https://warm-crumbly.zappy5.app/product/custom-birthday-drip-cake-kza63h</g:link>
+      <g:image_link>https://warm-crumbly.zappy5.app/assets/image-product-image-1781602653603-ce5nzi.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>100.00 USD</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Warm &amp; Crumbly</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
     <item>
       <g:id>7f5ec278-c5e6-474f-9f51-4c3a1618a810</g:id>
       <g:title>Chocolate Fudge Brownies</g:title>
