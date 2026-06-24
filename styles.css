@@ -11542,6 +11542,81 @@ main,
 [data-zappy-animate] { opacity: 0; }
 [data-zappy-animate].zappy-animated { opacity: 1; }
 
+
+.home-hero-section {
+  perspective: 1200px;
+  overflow: hidden;
+}
+
+.home-hero-section__bg {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+.home-hero-section__content {
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.home-hero-section:hover .home-hero-section__bg {
+  transform: scale(1.06);
+}
+
+.home-hero-section:hover .home-hero-section__content {
+  transform: translateZ(30px);
+}
+
+.home-hero-section__bg {
+  transition: transform 1.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+}
+
+.home-hero-section__stamp {
+  animation: hero-stamp-float 6s ease-in-out infinite;
+}
+
+@keyframes hero-stamp-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-8px) rotate(2deg); }
+  50% { transform: translateY(-4px) rotate(-1deg); }
+  75% { transform: translateY(-10px) rotate(1deg); }
+}
+
+.home-hero-section__scrim {
+  animation: hero-scrim-pulse 4s ease-in-out infinite;
+}
+
+@keyframes hero-scrim-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.home-hero-section__btn--primary {
+  animation: hero-btn-rise 0.7s 0.5s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.home-hero-section__btn--secondary {
+  animation: hero-btn-rise 0.7s 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@keyframes hero-btn-rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* zappy-self-heal */
+.home-hero-section__bg { transition: transform 0.1s linear !important; }
+.home-hero-section__stamp { animation: hero-stamp-float 6s ease-in-out infinite !important; }
+
+/* zappy-self-heal */
+html body .home-hero-section__bg { transition: transform 0.1s linear !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
